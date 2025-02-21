@@ -7,6 +7,7 @@ void drawMidPointLine(int X0, int Y0, int Xn, int Yn) {
     int DY = Yn - Y0;
     int D = 2 * DY - DX;
     int Dnew;
+    int delD=  2 * (DY - DX);
     int x = X0, y = Y0;
     
     putpixel(x, y, BLACK);
@@ -16,7 +17,7 @@ void drawMidPointLine(int X0, int Y0, int Xn, int Yn) {
             Dnew = D + 2 * DY;
             x++;
         } else {
-            Dnew = D + 2 * (DY - DX);
+            Dnew = D + delD;
             x++;
             y++;
         }
