@@ -53,14 +53,9 @@ For each new value of `Dnew`, apply the corresponding case to find the next coor
 
 ---
 
-## Visualization
-
-You can visualize how the Mid-Point Line Drawing Algorithm works by plotting the calculated points step by step. The algorithm efficiently determines which pixels to plot by iterating through each decision case.
-
----
 
 ## Documentation:
 
 For a more detailed explanation of the Mid-Point Line Drawing Algorithm, check out the full documentation:
 
-[Click here for Documentation](https://drive.google.com/file/d/199fcU-v877gVw9fZr07EoBGByB7w5c_t/view?usp=sharing)
+[Click here for Documentation](https://drive.google.com/file/d/137tfN0MXCmLpWLV8MskEvt_RFV_N5F4w/view?usp=sharing)
